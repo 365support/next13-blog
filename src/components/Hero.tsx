@@ -4,7 +4,7 @@ import profileImage from "../../public/images/mango.jpeg";
 
 const Hero = () => {
 	return (
-		<section className="text-center">
+		<section className="text-center mt-5">
 			<Image
 				className="rounded-full mx-auto"
 				src={profileImage}

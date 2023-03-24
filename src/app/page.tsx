@@ -1,12 +1,15 @@
 import Hero from "@/components/Hero";
 import FeaturedPosts from "@/components/FeaturedPosts";
+import CarouselPosts from "@/components/CarouselPosts";
 
 export default function HomePage() {
 	return (
-		<section>
+		<>
 			<Hero />
 			{/* @ts-expect-error Server Component */}
 			<FeaturedPosts />
-		</section>
+			{/* @ts-expect-error Server Component */}
+			<CarouselPosts />
+		</>
 	);
 }
