@@ -17,7 +17,7 @@ const ContactPage = () => {
 	return (
 		<section className="flex flex-col items-center">
 			<h2 className="text-3xl font-bold my-2">Contact Me</h2>
-			<p>info@dream-coding.com</p>
+			<p>mgjiwon@gmail.com</p>
 			<ul className="flex gap-4 my-2">
 				{LINKS.map((link, index) => (
 					<a
